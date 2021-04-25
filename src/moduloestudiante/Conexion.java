@@ -1,4 +1,3 @@
-
 package moduloestudiante;
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -9,8 +8,12 @@ import org.sqlite.SQLiteConnection;
  */
 public class Conexion 
 {
+    
    Connection conectar= null;
+   
    public static Connection ConectarBD() throws ClassNotFoundException 
+           
+           //Modulo de conexion de estudiantes
    {
 
       try
